@@ -13,12 +13,18 @@ h2 {
   letter-spacing: 5px;
   color: grey;
 }
+h5 {
+  margin-bottom: 10px;
+}
 a {
   text-decoration: none;
   color: black;
 }
-ul li {
-  list-style-type: circle;
+ul {
+  padding-left: 20px;
+  li {
+    list-style-type: circle;
+  }
 }
 .container {
   padding-left: 150px;

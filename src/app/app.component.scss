@@ -10,20 +10,23 @@
   z-index: -1;
 }
 .contacts-profile {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 10px;
 
   & app-contacts {
     width: 50%;
-    border-right: solid 1px #999;
+    // border-right: solid 1px #999;
   }
 
   & app-profile {
     width: 50%;
+    margin-bottom: 10px;
+    border-left: solid 1px #999;
   }
 }
 .skills-education-experience {
