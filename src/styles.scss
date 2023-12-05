@@ -11,19 +11,29 @@ body {
 h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: grey;
+  color: #1b6a06;
 }
 h5 {
   margin-bottom: 10px;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 ul {
   padding-left: 20px;
+  padding-right: 20px;
+  // list-style: none;
+  // li::before {
+  //   content: "\2606";
+  //   color: #1b6a06;
+  //   font-weight: bold;
+  //   display: inline-block;
+  //   width: 1em;
+  //   margin-left: -1em;
+  // }
   li {
-    list-style-type: circle;
+    list-style-type: "\2605";
   }
 }
 .container {

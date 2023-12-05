@@ -1,4 +1,13 @@
 .skills {
   padding-top: 20px;
   padding-bottom: 20px;
+  .flex {
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    & ul {
+      padding-right: 60px;
+    }
+  }
 }

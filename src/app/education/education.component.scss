@@ -2,5 +2,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 20px;
-  border-top: 1px solid #999;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+
+  .mat-expansion-panel {
+    background-color: whitesmoke;
+
+    & mat-expansion-panel-header mat-panel-title {
+      font-weight: 700;
+      font-size: 18px;
+      color: #222222;
+    }
+  }
 }

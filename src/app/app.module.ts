@@ -9,6 +9,9 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { EducationComponent } from './education/education.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RibbonComponent } from './ribbon/ribbon.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,12 @@ import { RibbonComponent } from './ribbon/ribbon.component';
     EducationComponent,
     RibbonComponent,
   ],
-  imports: [BrowserModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatExpansionModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
