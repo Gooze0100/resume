@@ -7,6 +7,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { EducationComponent } from './education/education.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,10 @@ import { EducationComponent } from './education/education.component';
     SkillsComponent,
     ProfileComponent,
     ContactsComponent,
-    EducationComponent
+    EducationComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
