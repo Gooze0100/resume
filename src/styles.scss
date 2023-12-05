@@ -11,8 +11,20 @@ body {
 h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
+  color: grey;
 }
 a {
   text-decoration: none;
   color: black;
+}
+ul li {
+  list-style-type: circle;
+}
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+  width: 100%;
+}
+.new-block {
+  margin-top: 15px;
 }

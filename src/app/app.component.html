@@ -1,19 +1,16 @@
 <div class="background"></div>
 
-<div class="ribbon container">
-  <div>
-    <h1>Giedrius Kalnius</h1>
-    <h2>Full-stack developer</h2>
+<app-ribbon></app-ribbon>
+<div class="container">
+  <div class="contacts-profile">
+    <app-contacts></app-contacts>
+    <app-profile></app-profile>
   </div>
-  <div class="profile-photo">
-    <img src="../assets/images/profile_photo.jpg" alt="profile_photo" />
+  <div class="skills-education-experience">
+    <div class="skill-education">
+      <app-skills></app-skills>
+      <app-education></app-education>
+    </div>
+    <app-experience></app-experience>
   </div>
-</div>
-
-<div class="container flex">
-  <app-contacts></app-contacts>
-  <app-profile></app-profile>
-  <app-skills></app-skills>
-  <app-experience></app-experience>
-  <app-education></app-education>
 </div>

@@ -1,0 +1,30 @@
+.ribbon {
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .profile-photo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

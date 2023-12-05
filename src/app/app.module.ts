@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { EducationComponent } from './education/education.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RibbonComponent } from './ribbon/ribbon.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProfileComponent,
     ContactsComponent,
     EducationComponent,
+    RibbonComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],
