@@ -1,8 +1,14 @@
 .experience {
-  padding: 20px 0 20px 50px;
+  padding: 10px 0 20px 50px;
   width: 100%;
-  mat-panel-title {
-    flex-grow: 2;
+  .mat-expansion-panel {
+    background-color: whitesmoke;
+    & mat-expansion-panel-header mat-panel-title {
+      flex-grow: 2;
+      font-weight: 700;
+      font-size: 18px;
+      color: #222222;
+    }
   }
 }
 @media screen and (max-width: 900px) {
