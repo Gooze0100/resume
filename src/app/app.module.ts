@@ -12,6 +12,7 @@ import { RibbonComponent } from './ribbon/ribbon.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     FontAwesomeModule,
     BrowserAnimationsModule,
     MatExpansionModule,
+    MatSlideToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

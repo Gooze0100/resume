@@ -13,10 +13,12 @@
   h1 {
     font-size: 45px;
     color: white;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   h2 {
     font-size: 20px;
-    color: lightgrey;
+    color: rgb(240, 240, 240);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   .profile-photo {
     position: absolute;
@@ -26,9 +28,95 @@
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     img {
       width: 100%;
       height: auto;
+    }
+  }
+}
+@media screen and (max-width: 820px) {
+  .ribbon {
+    .profile-photo {
+      top: 40px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .ribbon {
+    .profile-photo {
+      top: 60px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .ribbon {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .ribbon {
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    .profile-photo {
+      top: 30px;
+      right: 20px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .ribbon {
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .ribbon {
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 12px;
+    }
+    .profile-photo {
+      top: 5px;
+      right: 5px;
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .ribbon {
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+    .profile-photo {
+      top: 15px;
+      right: 10px;
+      width: 60px;
+      height: 60px;
     }
   }
 }
